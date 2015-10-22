@@ -16,6 +16,12 @@ public class User {
     private String name;
     private String email;
 
+    private User() {
+        this.id = null;
+        this.name = null;
+        this.email = null;
+    }
+
     public User(
         Long id,
         String name,
